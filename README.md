@@ -4,6 +4,8 @@
 
 [![Public repository checks](https://github.com/Yorkel/TRACE_EVIDENCE/actions/workflows/ci.yml/badge.svg)](https://github.com/Yorkel/TRACE_EVIDENCE/actions/workflows/ci.yml)
 
+Live dashboard: [trace-dashboard.onrender.com](https://trace-dashboard.onrender.com/)
+
 TRACE stands for **Testing the Reliability of AI in Consequential Evidence**. It is an engineering and evaluation system for asking whether an AI-assisted finding is reproducible, robust enough for its intended use, and connected to an inspectable evidence trail.
 
 This repository focuses on the technical pipeline: acquisition controls, preprocessing, model training, inference, monitoring, testing and release assurance.
