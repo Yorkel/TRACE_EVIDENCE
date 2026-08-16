@@ -28,6 +28,7 @@ This repository focuses on the technical pipeline: acquisition controls, preproc
         inference.py        cosine-centroid assignment
         rollup.py           document-level category aggregation
         monitoring.py       drift, novelty and concentration metrics
+        validation.py       aggregate classifier metrics and baselines
         robots.py           fail-closed acquisition controls
         release.py          path-safe, hash-bound release manifests
 
@@ -39,6 +40,9 @@ This repository focuses on the technical pipeline: acquisition controls, preproc
         build_public_release.py   deny-by-default repository builder
         audit_public_tree.py      privacy, credential and content checks
 
+    examples/               runnable synthetic end-to-end pipeline
+    results/                aggregate validation record; no documents
+    docs/                   validation protocol and limitations
     tests/                  synthetic and offline regression tests
 
 ## Engineering decisions demonstrated here
@@ -49,18 +53,54 @@ This repository focuses on the technical pipeline: acquisition controls, preproc
 - **Cosine inference receives versioned centroids and topic identifiers explicitly.** Thresholded observations become visible outliers rather than forced assignments.
 - **Outlier chunks remain measurable but do not enter substantive category proportions.**
 - **Monitoring calculates descriptive signals without automatically turning them into publication decisions.**
+- **Validation metrics are recomputed from an aggregate confusion matrix.** The public result contains no documents, identifiers or individual labels.
 - **Network acquisition fails closed when robots.txt cannot be checked.** Rules are cached and crawl delays are honoured.
 - **Release manifests bind reviewed files by SHA-256 and reject absolute paths or path traversal.**
 - **The public builder copies only individually allowlisted files and rejects notebooks, data exports, credentials and local paths.**
 
 ## Run the verified core
 
-    python -m venv .venv
-    source .venv/bin/activate
-    pip install -e '.[test]'
-    pytest
+    uv sync --extra test --frozen
+    uv run pytest
 
-The current public test suite contains 43 synthetic or offline tests. It does not require the private research corpus or model files.
+The committed `uv.lock` fixes the complete dependency graph. The public test suite uses
+synthetic or offline cases and does not require the private research corpus or model files.
+
+## Example
+
+Run the complete public path on four synthetic documents:
+
+    python examples/run_pipeline.py
+
+The example applies cleaning and chunking, deterministic toy embeddings, cosine-centroid
+inference, document roll-up and binary validation. It runs offline and does not download
+a model or access the private corpus.
+
+## Validation
+
+A blind-coded relevance-gate evaluation is published as aggregate counts only. One expert
+human coded 580 documents without seeing the output of one `gpt-4o-mini` gate.
+
+| Measure | Result |
+|---|---:|
+| Precision | 0.946 |
+| Recall | 0.813 |
+| Reweighted recall | 0.800 |
+| F2 | 0.837 |
+| Cohen's kappa | 0.743 |
+
+An always-`IN` baseline has F2 0.861 because it never excludes a relevant document, but it
+also provides no filtering. The evaluated gate predicted 52.4% of the sample `OUT` and
+missed 60 of 321 expert-positive documents. This is an operating tradeoff, not an
+unqualified model win.
+
+Recompute the published metrics:
+
+    python -m trace_evidence.validation results/relevance_gate_v1.json
+
+The [validation protocol](docs/validation_protocol.md) records the sampling design,
+reference standard, baseline and limitations. No documents, URLs, titles, individual
+labels or model responses are included.
 
 ## Optional components
 

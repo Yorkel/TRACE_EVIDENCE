@@ -83,7 +83,9 @@ def sent_split(t: str) -> list[str]:
 
 
 def chunk_doc(t: str, target: int = TARGET_WORDS, cap: int | None = MAX_CHUNKS_PER_DOC) -> list[str]:
-    out, cur, cw = [], [], 0
+    out: list[str] = []
+    cur: list[str] = []
+    cw = 0
     for s in sent_split(t):
         w = len(s.split())
         if cw + w > target and cur:

@@ -13,9 +13,14 @@ from tools.build_public_release import SECRET_PATTERNS, JWT, jwt_role
 DENIED_PARTS = {
     ".codex",
     ".claude",
+    ".mypy_cache",
+    ".venv",
     "__pycache__",
     ".pytest_cache",
+    ".ruff_cache",
+    "build",
     "dashboard",
+    "dist",
     "notebooks",
     "outputs",
     "releases",
@@ -23,6 +28,7 @@ DENIED_PARTS = {
 DENIED_NAMES = {
     "CLAUDE.md",
     "KEY_INSIGHTS.md",
+    ".coverage",
 }
 DENIED_SUFFIXES = {
     ".csv",
@@ -69,7 +75,9 @@ def audit(root: Path) -> list[str]:
             continue
         if path.name in DENIED_NAMES:
             problems.append(f"denied file: {relative}")
-        if set(relative.parts) & DENIED_PARTS:
+        if set(relative.parts) & DENIED_PARTS or any(
+            part.endswith(".egg-info") for part in relative.parts
+        ):
             problems.append(f"denied path: {relative}")
         if path.suffix.lower() in DENIED_SUFFIXES:
             problems.append(f"denied suffix: {relative}")

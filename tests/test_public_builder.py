@@ -1,7 +1,6 @@
-from pathlib import Path
-
 import pytest
 
+from tools.audit_public_tree import audit
 from tools.build_public_release import build
 
 
@@ -51,3 +50,21 @@ def test_builder_refuses_nonempty_target(tmp_path):
     (target / "existing.txt").write_text("keep", encoding="utf-8")
     with pytest.raises(ValueError, match="not empty"):
         build(source, target, allowlist)
+
+
+@pytest.mark.parametrize(
+    "relative",
+    [
+        ".mypy_cache/state.json",
+        ".ruff_cache/state",
+        ".venv/pyvenv.cfg",
+        "src/example.egg-info/PKG-INFO",
+    ],
+)
+def test_public_audit_rejects_generated_tooling_artifacts(tmp_path, relative):
+    (tmp_path / "LICENSE").write_text("MIT\n", encoding="utf-8")
+    (tmp_path / "README.md").write_text("# Example\n", encoding="utf-8")
+    artifact = tmp_path / relative
+    artifact.parent.mkdir(parents=True, exist_ok=True)
+    artifact.write_text("generated\n", encoding="utf-8")
+    assert any("denied path" in problem for problem in audit(tmp_path))

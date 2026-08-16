@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "evaluation_id": "relevance_gate_v1",
+  "task": "binary document-relevance classification",
+  "rubric_version": "v1.0",
+  "evaluated_model": "gpt-4o-mini",
+  "reference_standard": {
+    "coder_count": 1,
+    "coder_role": "expert human",
+    "blind_to_model_output": true
+  },
+  "sample": {
+    "n": 580,
+    "reference_positive": 321,
+    "reference_negative": 259,
+    "design": "difficulty-stratified sample drawn before model evaluation"
+  },
+  "confusion_matrix": {
+    "true_positive": 261,
+    "false_negative": 60,
+    "false_positive": 15,
+    "true_negative": 244
+  },
+  "beta": 2.0,
+  "metrics": {
+    "accuracy": 0.8707,
+    "precision": 0.9457,
+    "recall": 0.8131,
+    "f_beta": 0.8365,
+    "cohen_kappa": 0.7427,
+    "reweighted_recall": 0.8000
+  },
+  "always_positive_baseline": {
+    "accuracy": 0.5534,
+    "precision": 0.5534,
+    "recall": 1.0000,
+    "f_beta": 0.8611,
+    "predicted_negative_rate": 0.0000
+  },
+  "operating_point": {
+    "predicted_negative": 304,
+    "predicted_negative_rate": 0.5241,
+    "false_negative_share_of_reference_positive": 0.1869
+  },
+  "limitations": [
+    "The reference labels came from one expert coder; no human-human agreement result is available.",
+    "The planned intra-rater retest was not completed in the packaged evidence.",
+    "This result evaluates one model, not the separately planned two-model production ensemble.",
+    "Reweighted recall is reported from the original stratum weights; document-level weights are not redistributed here.",
+    "The always-positive baseline has higher F2 because the task treats false exclusion as especially costly."
+  ]
+}
