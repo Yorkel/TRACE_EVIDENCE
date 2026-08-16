@@ -75,9 +75,9 @@ Install the training examples:
 
 Training requires caller-supplied text and embeddings. No source documents, model weights or generated research outputs are distributed in this repository.
 
-## If you are reviewing this as an engineering portfolio
+## Code tour
 
-A useful short route through the code is:
+Key components:
 
 1. [Cosine inference](src/trace_evidence/inference.py)
 2. [Document roll-up](src/trace_evidence/rollup.py)
@@ -85,8 +85,6 @@ A useful short route through the code is:
 4. [Monitoring metrics](src/trace_evidence/monitoring.py)
 5. [Release assurance](src/trace_evidence/release.py)
 6. [Offline regression tests](tests/)
-
-Together these show the path from controlled input to tested, version-bound evidence.
 
 ## Repository boundary
 
