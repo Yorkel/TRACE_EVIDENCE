@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trace-evidence"
+version = "0.1.0"
+description = "Curated pipeline and release-assurance components from TRACE"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+api = [
+    "fastapi>=0.110",
+    "pydantic>=2.6",
+    "uvicorn>=0.27",
+]
+training = [
+    "bertopic>=0.16",
+    "hdbscan>=0.8.33",
+    "sentence-transformers>=3",
+    "scikit-learn>=1.4",
+    "umap-learn>=0.5.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["trace_evidence*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

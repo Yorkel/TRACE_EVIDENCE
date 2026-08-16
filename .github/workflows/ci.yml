@@ -1,0 +1,26 @@
+name: Public repository checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test-and-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Public-tree audit
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python -m tools.audit_public_tree .
+      - name: Install verified core
+        run: python -m pip install -e '.[test]'
+      - name: Unit tests
+        run: python -m pytest
+      - name: Compile optional examples
+        run: python -m compileall -q src pipeline tools
