@@ -68,6 +68,16 @@ python -m trace_evidence.validation results/relevance_gate_v1.json
 The implementation uses the Python standard library and does not require access to the
 private corpus or annotation database.
 
+## Reference-label review
+
+The published confusion matrix uses cleaned reference labels. Of 120 initial
+disagreements, blind recoding changed 45 labels, mainly correcting over-inclusion.
+Initial recall, precision and kappa were 0.718, 0.931 and 0.590; after reference review
+they were 0.813, 0.946 and 0.743. These changes reflect the revised reference set,
+not a model improvement. Only disagreements were revisited, so initial kappa is the
+more conservative reliability account. A proper test–retest would sample agreements
+as well as disagreements. This relevance reference does not validate topic assignment.
+
 ## Limitations
 
 - The reference standard contains one expert coder, so human-human agreement is unknown.

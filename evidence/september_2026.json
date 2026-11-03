@@ -1,0 +1,4369 @@
+{
+  "evaluation_freeze": "2026-09-30",
+  "capture_finished_utc": "2026-11-03T16:44:41.526424+00:00",
+  "cut_definition": "Current stored predictions for publication dates through 2026-09-30; captured separately on the date below. Not historical ingestion state.",
+  "fractional_precision": "Exact non-outlier chunk category counts divided by each document's non-outlier chunk total; no stored JSON rounding.",
+  "input_counts": {
+    "chunks": 77356,
+    "documents": 10537,
+    "documents_missing_text": 0,
+    "documents_with_text": 10537,
+    "text_rows": 10537
+  },
+  "model_version": "bertopic_percountry_v1",
+  "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925",
+  "npmi": [
+    {
+      "cc": "eng",
+      "diversity": 0.846666666666667,
+      "eligible_texts": 6965,
+      "freeze": "2026-09-30",
+      "max_ngram": 2,
+      "model": "NMF",
+      "multiword_terms": 63,
+      "npmi": 0.09907034885219,
+      "observed_terms": 240,
+      "reference_documents": 1500,
+      "topics": 30,
+      "vocabulary_terms": 254
+    },
+    {
+      "cc": "eng",
+      "diversity": 0.950666666666667,
+      "eligible_texts": 6965,
+      "freeze": "2026-09-30",
+      "max_ngram": 2,
+      "model": "BERTopic",
+      "multiword_terms": 238,
+      "npmi": 0.181867119593293,
+      "observed_terms": 674,
+      "reference_documents": 1500,
+      "topics": 75,
+      "vocabulary_terms": 713
+    },
+    {
+      "cc": "sco",
+      "diversity": 0.826666666666667,
+      "eligible_texts": 1128,
+      "freeze": "2026-09-30",
+      "max_ngram": 2,
+      "model": "NMF",
+      "multiword_terms": 23,
+      "npmi": 0.096566462107328,
+      "observed_terms": 121,
+      "reference_documents": 1128,
+      "topics": 15,
+      "vocabulary_terms": 124
+    },
+    {
+      "cc": "sco",
+      "diversity": 0.936666666666667,
+      "eligible_texts": 1128,
+      "freeze": "2026-09-30",
+      "max_ngram": 2,
+      "model": "BERTopic",
+      "multiword_terms": 48,
+      "npmi": 0.192882465841523,
+      "observed_terms": 270,
+      "reference_documents": 1128,
+      "topics": 30,
+      "vocabulary_terms": 281
+    },
+    {
+      "cc": "irl",
+      "diversity": 0.853333333333333,
+      "eligible_texts": 2444,
+      "freeze": "2026-09-30",
+      "max_ngram": 2,
+      "model": "NMF",
+      "multiword_terms": 25,
+      "npmi": 0.165830877786192,
+      "observed_terms": 123,
+      "reference_documents": 1500,
+      "topics": 15,
+      "vocabulary_terms": 128
+    },
+    {
+      "cc": "irl",
+      "diversity": 0.963636363636364,
+      "eligible_texts": 2444,
+      "freeze": "2026-09-30",
+      "max_ngram": 2,
+      "model": "BERTopic",
+      "multiword_terms": 102,
+      "npmi": 0.210545628445272,
+      "observed_terms": 298,
+      "reference_documents": 1500,
+      "topics": 33,
+      "vocabulary_terms": 318
+    }
+  ],
+  "monthly_fit": [
+    {
+      "cc": "all",
+      "chunks": 1667,
+      "mean_similarity": 0.646259088182364,
+      "month": "2026-01",
+      "outlier_rate": 0.010797840431914
+    },
+    {
+      "cc": "eng",
+      "chunks": 1032,
+      "mean_similarity": 0.651104457364341,
+      "month": "2026-01",
+      "outlier_rate": 0.011627906976744
+    },
+    {
+      "cc": "irl",
+      "chunks": 213,
+      "mean_similarity": 0.615642723004695,
+      "month": "2026-01",
+      "outlier_rate": 0.009389671361502
+    },
+    {
+      "cc": "sco",
+      "chunks": 422,
+      "mean_similarity": 0.649863033175356,
+      "month": "2026-01",
+      "outlier_rate": 0.009478672985782
+    },
+    {
+      "cc": "all",
+      "chunks": 1948,
+      "mean_similarity": 0.637310215605749,
+      "month": "2026-02",
+      "outlier_rate": 0.03952772073922
+    },
+    {
+      "cc": "eng",
+      "chunks": 1410,
+      "mean_similarity": 0.649941276595745,
+      "month": "2026-02",
+      "outlier_rate": 0.036879432624113
+    },
+    {
+      "cc": "irl",
+      "chunks": 217,
+      "mean_similarity": 0.606653917050691,
+      "month": "2026-02",
+      "outlier_rate": 0.059907834101382
+    },
+    {
+      "cc": "sco",
+      "chunks": 321,
+      "mean_similarity": 0.602552024922118,
+      "month": "2026-02",
+      "outlier_rate": 0.037383177570093
+    },
+    {
+      "cc": "all",
+      "chunks": 2384,
+      "mean_similarity": 0.622688213087248,
+      "month": "2026-03",
+      "outlier_rate": 0.033976510067114
+    },
+    {
+      "cc": "eng",
+      "chunks": 1611,
+      "mean_similarity": 0.630373618870267,
+      "month": "2026-03",
+      "outlier_rate": 0.022346368715084
+    },
+    {
+      "cc": "irl",
+      "chunks": 403,
+      "mean_similarity": 0.60598635235732,
+      "month": "2026-03",
+      "outlier_rate": 0.03970223325062
+    },
+    {
+      "cc": "sco",
+      "chunks": 370,
+      "mean_similarity": 0.607417027027027,
+      "month": "2026-03",
+      "outlier_rate": 0.078378378378378
+    },
+    {
+      "cc": "all",
+      "chunks": 1772,
+      "mean_similarity": 0.626950733634312,
+      "month": "2026-04",
+      "outlier_rate": 0.014672686230248
+    },
+    {
+      "cc": "eng",
+      "chunks": 1327,
+      "mean_similarity": 0.630126299924642,
+      "month": "2026-04",
+      "outlier_rate": 0.008289374529013
+    },
+    {
+      "cc": "irl",
+      "chunks": 354,
+      "mean_similarity": 0.620554802259887,
+      "month": "2026-04",
+      "outlier_rate": 0.028248587570621
+    },
+    {
+      "cc": "sco",
+      "chunks": 91,
+      "mean_similarity": 0.605524175824176,
+      "month": "2026-04",
+      "outlier_rate": 0.054945054945055
+    },
+    {
+      "cc": "all",
+      "chunks": 1994,
+      "mean_similarity": 0.626904714142427,
+      "month": "2026-05",
+      "outlier_rate": 0.028585757271815
+    },
+    {
+      "cc": "eng",
+      "chunks": 1519,
+      "mean_similarity": 0.638495589203423,
+      "month": "2026-05",
+      "outlier_rate": 0.021066491112574
+    },
+    {
+      "cc": "irl",
+      "chunks": 293,
+      "mean_similarity": 0.585084300341297,
+      "month": "2026-05",
+      "outlier_rate": 0.054607508532423
+    },
+    {
+      "cc": "sco",
+      "chunks": 182,
+      "mean_similarity": 0.597491758241758,
+      "month": "2026-05",
+      "outlier_rate": 0.049450549450549
+    },
+    {
+      "cc": "all",
+      "chunks": 2374,
+      "mean_similarity": 0.624683614153328,
+      "month": "2026-06",
+      "outlier_rate": 0.029907329401853
+    },
+    {
+      "cc": "eng",
+      "chunks": 1466,
+      "mean_similarity": 0.638068622100955,
+      "month": "2026-06",
+      "outlier_rate": 0.02387448840382
+    },
+    {
+      "cc": "irl",
+      "chunks": 591,
+      "mean_similarity": 0.598117597292724,
+      "month": "2026-06",
+      "outlier_rate": 0.055837563451777
+    },
+    {
+      "cc": "sco",
+      "chunks": 317,
+      "mean_similarity": 0.61231167192429,
+      "month": "2026-06",
+      "outlier_rate": 0.009463722397476
+    },
+    {
+      "cc": "all",
+      "chunks": 2242,
+      "mean_similarity": 0.626729884032114,
+      "month": "2026-07",
+      "outlier_rate": 0.022747546833185
+    },
+    {
+      "cc": "eng",
+      "chunks": 1810,
+      "mean_similarity": 0.630573425414365,
+      "month": "2026-07",
+      "outlier_rate": 0.013812154696133
+    },
+    {
+      "cc": "irl",
+      "chunks": 315,
+      "mean_similarity": 0.602615555555556,
+      "month": "2026-07",
+      "outlier_rate": 0.073015873015873
+    },
+    {
+      "cc": "sco",
+      "chunks": 117,
+      "mean_similarity": 0.632193162393162,
+      "month": "2026-07",
+      "outlier_rate": 0.025641025641026
+    },
+    {
+      "cc": "all",
+      "chunks": 1042,
+      "mean_similarity": 0.625713339731286,
+      "month": "2026-08",
+      "outlier_rate": 0.018234165067179
+    },
+    {
+      "cc": "eng",
+      "chunks": 762,
+      "mean_similarity": 0.643370472440945,
+      "month": "2026-08",
+      "outlier_rate": 0.005249343832021
+    },
+    {
+      "cc": "irl",
+      "chunks": 152,
+      "mean_similarity": 0.526320394736842,
+      "month": "2026-08",
+      "outlier_rate": 0.072368421052632
+    },
+    {
+      "cc": "sco",
+      "chunks": 128,
+      "mean_similarity": 0.63862734375,
+      "month": "2026-08",
+      "outlier_rate": 0.03125
+    },
+    {
+      "cc": "all",
+      "chunks": 1239,
+      "mean_similarity": 0.633928974979822,
+      "month": "2026-09",
+      "outlier_rate": 0.012913640032284
+    },
+    {
+      "cc": "eng",
+      "chunks": 585,
+      "mean_similarity": 0.645761709401709,
+      "month": "2026-09",
+      "outlier_rate": 0.006837606837607
+    },
+    {
+      "cc": "irl",
+      "chunks": 410,
+      "mean_similarity": 0.625739268292683,
+      "month": "2026-09",
+      "outlier_rate": 0.019512195121951
+    },
+    {
+      "cc": "sco",
+      "chunks": 244,
+      "mean_similarity": 0.619320901639344,
+      "month": "2026-09",
+      "outlier_rate": 0.016393442622951
+    }
+  ],
+  "bootstrap_fractional": [
+    {
+      "category": "Assessment & Qualifications",
+      "cc": "eng",
+      "ci_hi": 6.937383364180108,
+      "ci_lo": 6.026276189082959,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 6.482925722828152,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Attainment & Outcomes",
+      "cc": "eng",
+      "ci_hi": 2.110115784262697,
+      "ci_lo": 1.689840287657626,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 1.891821113877511,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Attendance & Behaviour",
+      "cc": "eng",
+      "ci_hi": 4.711179213516087,
+      "ci_lo": 3.946045458204093,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 4.320546519074108,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Climate & Sustainability",
+      "cc": "eng",
+      "ci_hi": 1.037534098071665,
+      "ci_lo": 0.663370322560416,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 0.852998237531379,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Curriculum & Learning",
+      "cc": "eng",
+      "ci_hi": 5.613943570072012,
+      "ci_lo": 4.839996822647214,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 5.221132025178614,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Digital, AI & Technology",
+      "cc": "eng",
+      "ci_hi": 6.135927942115087,
+      "ci_lo": 5.236074259685488,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 5.684448427260546,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Equality, Rights & Inclusion",
+      "cc": "eng",
+      "ci_hi": 4.845824222696638,
+      "ci_lo": 4.14430246650766,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 4.490672375189845,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Governance & Funding",
+      "cc": "eng",
+      "ci_hi": 11.482532838850386,
+      "ci_lo": 10.510934439395674,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 10.992125551348082,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Health & Wellbeing",
+      "cc": "eng",
+      "ci_hi": 2.669807165839884,
+      "ci_lo": 2.111212260666194,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 2.373650930818657,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Inspection & Accountability",
+      "cc": "eng",
+      "ci_hi": 8.74851067261245,
+      "ci_lo": 7.662422652328463,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 8.184001617021048,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Language Education",
+      "cc": "eng",
+      "ci_hi": 0.728129095475234,
+      "ci_lo": 0.454434020621533,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 0.582328159916882,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Pandemic Impact",
+      "cc": "eng",
+      "ci_hi": 0.866995367389087,
+      "ci_lo": 0.625568574068151,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 0.742413350320804,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Parental & Family Engagement",
+      "cc": "eng",
+      "ci_hi": 1.383785004731218,
+      "ci_lo": 1.071814086382474,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 1.226344400872917,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Poverty & Disadvantage",
+      "cc": "eng",
+      "ci_hi": 8.632214981020757,
+      "ci_lo": 7.699613507838719,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 8.157245344777364,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Safeguarding, Welfare & Youth Services",
+      "cc": "eng",
+      "ci_hi": 3.569976390375105,
+      "ci_lo": 2.93793111431269,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 3.23718969408835,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "School Operations & Infrastructure",
+      "cc": "eng",
+      "ci_hi": 2.129256030143859,
+      "ci_lo": 1.638452615266012,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 1.871875597973296,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "School System & Structures",
+      "cc": "eng",
+      "ci_hi": 10.327302515592809,
+      "ci_lo": 9.243096920425272,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 9.791462716456744,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Skills, FE & Vocational",
+      "cc": "eng",
+      "ci_hi": 5.566218561095724,
+      "ci_lo": 4.818935018189312,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 5.184741999425308,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Special & Inclusive Education",
+      "cc": "eng",
+      "ci_hi": 8.643285265926961,
+      "ci_lo": 7.689565233834466,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 8.148858057318833,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Teaching Profession & Workforce",
+      "cc": "eng",
+      "ci_hi": 11.143743963188834,
+      "ci_lo": 9.987045256959487,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 6964,
+      "seed": 42,
+      "share_pct": 10.56321815872156,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Assessment & Qualifications",
+      "cc": "sco",
+      "ci_hi": 9.689258848842893,
+      "ci_lo": 7.179033996310928,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 8.37425943089965,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Attainment & Outcomes",
+      "cc": "sco",
+      "ci_hi": 4.123587595420622,
+      "ci_lo": 2.502811854857764,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 3.282271453832727,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Attendance & Behaviour",
+      "cc": "sco",
+      "ci_hi": 5.989721832042291,
+      "ci_lo": 4.057566196819239,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 5.022210052375787,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Climate & Sustainability",
+      "cc": "sco",
+      "ci_hi": 2.986882216484332,
+      "ci_lo": 1.616187509569447,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 2.245907614812405,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Curriculum & Learning",
+      "cc": "sco",
+      "ci_hi": 2.230942287125797,
+      "ci_lo": 1.015260159708298,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 1.57060126142573,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Digital, AI & Technology",
+      "cc": "sco",
+      "ci_hi": 3.359325736957372,
+      "ci_lo": 1.701391522990914,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 2.523141595285972,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Equality, Rights & Inclusion",
+      "cc": "sco",
+      "ci_hi": 15.7942936528695,
+      "ci_lo": 12.621006615428385,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 14.210265214850615,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Governance & Funding",
+      "cc": "sco",
+      "ci_hi": 12.669520111795526,
+      "ci_lo": 9.784310008034641,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 11.19691083432329,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Health & Wellbeing",
+      "cc": "sco",
+      "ci_hi": 8.269545750405655,
+      "ci_lo": 5.799915068730557,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 7.022054004709669,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Inspection & Accountability",
+      "cc": "sco",
+      "ci_hi": 0.0,
+      "ci_lo": 0.0,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 0.0,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Language Education",
+      "cc": "sco",
+      "ci_hi": 3.333164791276492,
+      "ci_lo": 1.709634417247449,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 2.506409075558012,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Pandemic Impact",
+      "cc": "sco",
+      "ci_hi": 1.55074759733904,
+      "ci_lo": 0.685627449600844,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 1.082379761043988,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Parental & Family Engagement",
+      "cc": "sco",
+      "ci_hi": 0.0,
+      "ci_lo": 0.0,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 0.0,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Poverty & Disadvantage",
+      "cc": "sco",
+      "ci_hi": 20.830245863844837,
+      "ci_lo": 17.071195061345026,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 18.83105523145047,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Safeguarding, Welfare & Youth Services",
+      "cc": "sco",
+      "ci_hi": 0.0,
+      "ci_lo": 0.0,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 0.0,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "School Operations & Infrastructure",
+      "cc": "sco",
+      "ci_hi": 0.86220165911492,
+      "ci_lo": 0.213721656188803,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 0.497498825333891,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "School System & Structures",
+      "cc": "sco",
+      "ci_hi": 0.0,
+      "ci_lo": 0.0,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 0.0,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Skills, FE & Vocational",
+      "cc": "sco",
+      "ci_hi": 2.339612047989067,
+      "ci_lo": 1.31927650471539,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 1.804556094315448,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Special & Inclusive Education",
+      "cc": "sco",
+      "ci_hi": 7.199169548817816,
+      "ci_lo": 4.967132355156124,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 6.061483503693818,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Teaching Profession & Workforce",
+      "cc": "sco",
+      "ci_hi": 15.577283667529873,
+      "ci_lo": 11.967099669797951,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 1128,
+      "seed": 43,
+      "share_pct": 13.768996046088525,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Assessment & Qualifications",
+      "cc": "irl",
+      "ci_hi": 8.641416378732837,
+      "ci_lo": 6.740608389645152,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 7.687066873473849,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Attainment & Outcomes",
+      "cc": "irl",
+      "ci_hi": 2.556365135506361,
+      "ci_lo": 1.546509632414605,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 2.035217638089232,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Attendance & Behaviour",
+      "cc": "irl",
+      "ci_hi": 4.812855863134951,
+      "ci_lo": 3.39034987508228,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 4.098282565144784,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Climate & Sustainability",
+      "cc": "irl",
+      "ci_hi": 2.038271267340966,
+      "ci_lo": 1.189859984288909,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 1.600744072446116,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Curriculum & Learning",
+      "cc": "irl",
+      "ci_hi": 9.883591148293844,
+      "ci_lo": 8.034757909134996,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 8.902599568022778,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Digital, AI & Technology",
+      "cc": "irl",
+      "ci_hi": 4.186161348222918,
+      "ci_lo": 2.950227250380944,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 3.560009025243879,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Equality, Rights & Inclusion",
+      "cc": "irl",
+      "ci_hi": 1.937191924661638,
+      "ci_lo": 1.168914938719768,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 1.533160627151578,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Governance & Funding",
+      "cc": "irl",
+      "ci_hi": 7.48021827198085,
+      "ci_lo": 5.708220834640143,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 6.58858795693339,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Health & Wellbeing",
+      "cc": "irl",
+      "ci_hi": 7.564674610240103,
+      "ci_lo": 5.807351810436203,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 6.669662958488325,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Inspection & Accountability",
+      "cc": "irl",
+      "ci_hi": 2.414708436856916,
+      "ci_lo": 1.476425310363011,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 1.906625763492802,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Language Education",
+      "cc": "irl",
+      "ci_hi": 3.864785689755198,
+      "ci_lo": 2.628853740037608,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 3.21280508194532,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Pandemic Impact",
+      "cc": "irl",
+      "ci_hi": 0.0,
+      "ci_lo": 0.0,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 0.0,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Parental & Family Engagement",
+      "cc": "irl",
+      "ci_hi": 0.0,
+      "ci_lo": 0.0,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 0.0,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Poverty & Disadvantage",
+      "cc": "irl",
+      "ci_hi": 11.691579573117446,
+      "ci_lo": 9.51728122685302,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 10.580843952093524,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Safeguarding, Welfare & Youth Services",
+      "cc": "irl",
+      "ci_hi": 2.579812455324477,
+      "ci_lo": 1.556508734437628,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 2.054964591107234,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "School Operations & Infrastructure",
+      "cc": "irl",
+      "ci_hi": 2.811688934877866,
+      "ci_lo": 1.770549044645321,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 2.281365926323909,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "School System & Structures",
+      "cc": "irl",
+      "ci_hi": 2.320949546977782,
+      "ci_lo": 1.414726261120422,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 1.846667005226119,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Skills, FE & Vocational",
+      "cc": "irl",
+      "ci_hi": 0.0,
+      "ci_lo": 0.0,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 0.0,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Special & Inclusive Education",
+      "cc": "irl",
+      "ci_hi": 14.6950712549191,
+      "ci_lo": 12.319590962746805,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 13.482662627102771,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    },
+    {
+      "category": "Teaching Profession & Workforce",
+      "cc": "irl",
+      "ci_hi": 23.467777241435147,
+      "ci_lo": 20.419791276742465,
+      "draws": 2000,
+      "freeze": "2026-09-30",
+      "measure": "fractional_document_share",
+      "n": 2436,
+      "seed": 44,
+      "share_pct": 21.958733767714385,
+      "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925"
+    }
+  ],
+  "remapping": [
+    {
+      "became_outlier": 0,
+      "bound_reference": "stored September label",
+      "changed_docs": 2265,
+      "changed_pct": 21.51405775075988,
+      "forced_change_pct": 20.25075987841945,
+      "freeze": "2026-09-30",
+      "mapping": "claude",
+      "n": 10528,
+      "possible_change_pct": 28.799392097264437,
+      "reference": "first-chunk manual and alternative; controlled tie rule",
+      "rule": "production_outlier_excluded",
+      "stored_baseline_tie_disagreements": 20,
+      "unmatched_docs": 0
+    },
+    {
+      "became_outlier": 0,
+      "bound_reference": "stored September label",
+      "changed_docs": 3384,
+      "changed_pct": 32.142857142857146,
+      "forced_change_pct": 30.81306990881459,
+      "freeze": "2026-09-30",
+      "mapping": "gpt",
+      "n": 10528,
+      "possible_change_pct": 38.16489361702128,
+      "reference": "first-chunk manual and alternative; controlled tie rule",
+      "rule": "production_outlier_excluded",
+      "stored_baseline_tie_disagreements": 20,
+      "unmatched_docs": 0
+    },
+    {
+      "became_outlier": 0,
+      "bound_reference": "stored September label",
+      "changed_docs": 5058,
+      "changed_pct": 48.04331306990882,
+      "forced_change_pct": 46.59004559270517,
+      "freeze": "2026-09-30",
+      "mapping": "embedding",
+      "n": 10528,
+      "possible_change_pct": 53.09650455927052,
+      "reference": "first-chunk manual and alternative; controlled tie rule",
+      "rule": "production_outlier_excluded",
+      "stored_baseline_tie_disagreements": 20,
+      "unmatched_docs": 0
+    },
+    {
+      "became_outlier": 1,
+      "bound_reference": "legacy first-chunk manual",
+      "changed_docs": 2254,
+      "changed_pct": 21.55081747777034,
+      "forced_change_pct": 20.240940816521654,
+      "freeze": "2026-09-30",
+      "mapping": "claude",
+      "n": 10459,
+      "possible_change_pct": 28.951142556649774,
+      "reference": "first-chunk manual and alternative; controlled tie rule",
+      "rule": "legacy_outlier_competes",
+      "stored_baseline_tie_disagreements": 0,
+      "unmatched_docs": 0
+    },
+    {
+      "became_outlier": 4,
+      "bound_reference": "legacy first-chunk manual",
+      "changed_docs": 3358,
+      "changed_pct": 32.10631991586194,
+      "forced_change_pct": 30.844248972177073,
+      "freeze": "2026-09-30",
+      "mapping": "gpt",
+      "n": 10459,
+      "possible_change_pct": 38.29237976862033,
+      "reference": "first-chunk manual and alternative; controlled tie rule",
+      "rule": "legacy_outlier_competes",
+      "stored_baseline_tie_disagreements": 0,
+      "unmatched_docs": 0
+    },
+    {
+      "became_outlier": 4,
+      "bound_reference": "legacy first-chunk manual",
+      "changed_docs": 5028,
+      "changed_pct": 48.07342958217803,
+      "forced_change_pct": 46.63925805526341,
+      "freeze": "2026-09-30",
+      "mapping": "embedding",
+      "n": 10459,
+      "possible_change_pct": 53.217324792045126,
+      "reference": "first-chunk manual and alternative; controlled tie rule",
+      "rule": "legacy_outlier_competes",
+      "stored_baseline_tie_disagreements": 0,
+      "unmatched_docs": 0
+    }
+  ],
+  "remapping_validation": {
+    "category_mismatches": 20,
+    "document_ids_match": true,
+    "expected_documents": 10528,
+    "freeze": "2026-09-30",
+    "interpretation": "All stored labels must be maximal-count categories. First-chunk differences are retained as explicit tie sensitivity, not silently repaired.",
+    "non_tie_category_mismatches": 0,
+    "primary_rule": "exclude outlier chunks; majority mapped category; first chunk breaks ties",
+    "reconstructed_documents": 10528,
+    "snapshot_id": "b2d4e679b2aefd787a0668013dde3737b8752b8f191a90916d76459a25f0a925",
+    "stored_tie_choice_differs_from_first_chunk": 20,
+    "topics_resolved": 138
+  },
+  "review_notes": [
+    "Publication-date cutoff differs from an ingestion-state snapshot taken on 30 September.",
+    "NPMI is a common-reference diagnostic using saved model terms; it is not assignment accuracy or c_v.",
+    "Remapping first-chunk rates use the same deterministic tie rule in both mappings. Stored tie choices and forced/possible bounds are reported separately.",
+    "Bootstrap intervals describe resampling uncertainty conditional on this collected corpus; they do not establish national representativeness.",
+    "Training/tuning/rebuild populations remain historical and must not be globally relabelled as September evaluation data.",
+    "PSD and slide updates await user review of these results."
+  ],
+  "producer_sha256": {
+    "final_freeze_analysis.py": "765466b3fc5ed7c0d7db1f2259be82b29e93956a9f2c48564bd03855c05d1e61",
+    "freeze_46_evaluation.py": "8c05fad3fcc4395f71e99a0617cebe3d12f339a7a7e2a6b9a3e84696ba038d4c",
+    "freeze_47_bias_fairness.py": "412c919a054fbb4d79159138b03ec316303da42dc137aff0d40a19a56217d419",
+    "freeze_common.py": "08be4acc139101249ce3c5a885678dfa72febf94e2fcb863f6c255df5e0db047",
+    "pin_september_snapshot.py": "588fc5bc6c31c7803085d61b7990bd204574b507e8f8ae34a1465889e82bdbf9"
+  },
+  "notebook_source_sha256": {
+    "46_evaluation.ipynb": "ac8a48c9e5fed879f450720d3d5684d47cd784acc2797b3412d11fb09707cac4",
+    "47_bias_fairness.ipynb": "2e394553d37e6ad39f090e236a131c68116600d2b0cba909a87217c4f5733ff4",
+    "48_september_final_figures.ipynb": "58827fe20b0003005885f070fa3412a05cb2a35914bbc37a4e2c6b75a3d4d6f3"
+  },
+  "training_baseline_is_unchanged": true,
+  "tables": {
+    "46_21_corpus_counts": [
+      {
+        "figure": "documents",
+        "value": "10537"
+      },
+      {
+        "figure": "chunks",
+        "value": "77356"
+      },
+      {
+        "figure": "sources",
+        "value": "63"
+      },
+      {
+        "figure": "categorised documents",
+        "value": "10528"
+      },
+      {
+        "figure": "first date",
+        "value": "2023-01-02"
+      },
+      {
+        "figure": "last date",
+        "value": "2026-09-30"
+      },
+      {
+        "figure": "eng categorised documents",
+        "value": "6964"
+      },
+      {
+        "figure": "sco categorised documents",
+        "value": "1128"
+      },
+      {
+        "figure": "irl categorised documents",
+        "value": "2436"
+      },
+      {
+        "figure": "eng share of categorised %",
+        "value": "66.15"
+      },
+      {
+        "figure": "sco share of categorised %",
+        "value": "10.71"
+      },
+      {
+        "figure": "irl share of categorised %",
+        "value": "23.14"
+      },
+      {
+        "figure": "eng share of all documents %",
+        "value": "66.1"
+      },
+      {
+        "figure": "sco share of all documents %",
+        "value": "10.71"
+      },
+      {
+        "figure": "irl share of all documents %",
+        "value": "23.19"
+      }
+    ],
+    "46_23_fit": [
+      {
+        "figure": "document median similarity",
+        "n": 10537,
+        "value": 0.6548
+      },
+      {
+        "figure": "lower quartile",
+        "n": 10537,
+        "value": 0.5986
+      },
+      {
+        "figure": "upper quartile",
+        "n": 10537,
+        "value": 0.7015
+      },
+      {
+        "figure": "passage outlier rate %",
+        "n": 77356,
+        "value": 1.788
+      },
+      {
+        "figure": "median on unseen 2026 documents",
+        "n": 2976,
+        "value": 0.6437
+      }
+    ],
+    "46_24_chi_square_v": [
+      {
+        "df": 38,
+        "figure": "chi-square",
+        "n": 10528,
+        "value": 1790.4
+      },
+      {
+        "df": 38,
+        "figure": "Cramer's V",
+        "n": 10528,
+        "value": 0.2916
+      },
+      {
+        "df": 38,
+        "figure": "Cramer's V, government only",
+        "n": 1855,
+        "value": 0.4286
+      }
+    ],
+    "46_25_js_distance": [
+      {
+        "js_distance": 0.4349,
+        "mix": "fractional",
+        "pair": "eng-sco"
+      },
+      {
+        "js_distance": 0.3792,
+        "mix": "fractional",
+        "pair": "sco-irl"
+      },
+      {
+        "js_distance": 0.3537,
+        "mix": "fractional",
+        "pair": "eng-irl"
+      },
+      {
+        "js_distance": 0.4442,
+        "mix": "dominant",
+        "pair": "eng-sco"
+      },
+      {
+        "js_distance": 0.3822,
+        "mix": "dominant",
+        "pair": "sco-irl"
+      },
+      {
+        "js_distance": 0.3514,
+        "mix": "dominant",
+        "pair": "eng-irl"
+      }
+    ],
+    "46_26_ranks": [
+      {
+        "category": "Governance & Funding",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 1,
+        "share_pct": 10.99
+      },
+      {
+        "category": "Teaching Profession & Workforce",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 2,
+        "share_pct": 10.56
+      },
+      {
+        "category": "School System & Structures",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 3,
+        "share_pct": 9.79
+      },
+      {
+        "category": "Inspection & Accountability",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 4,
+        "share_pct": 8.18
+      },
+      {
+        "category": "Poverty & Disadvantage",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 5,
+        "share_pct": 8.16
+      },
+      {
+        "category": "Special & Inclusive Education",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 6,
+        "share_pct": 8.15
+      },
+      {
+        "category": "Assessment & Qualifications",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 7,
+        "share_pct": 6.48
+      },
+      {
+        "category": "Digital, AI & Technology",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 8,
+        "share_pct": 5.68
+      },
+      {
+        "category": "Curriculum & Learning",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 9,
+        "share_pct": 5.22
+      },
+      {
+        "category": "Skills, FE & Vocational",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 10,
+        "share_pct": 5.18
+      },
+      {
+        "category": "Equality, Rights & Inclusion",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 11,
+        "share_pct": 4.49
+      },
+      {
+        "category": "Attendance & Behaviour",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 12,
+        "share_pct": 4.32
+      },
+      {
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 13,
+        "share_pct": 3.24
+      },
+      {
+        "category": "Health & Wellbeing",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 14,
+        "share_pct": 2.37
+      },
+      {
+        "category": "Attainment & Outcomes",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 15,
+        "share_pct": 1.89
+      },
+      {
+        "category": "School Operations & Infrastructure",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 16,
+        "share_pct": 1.87
+      },
+      {
+        "category": "Parental & Family Engagement",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 17,
+        "share_pct": 1.23
+      },
+      {
+        "category": "Climate & Sustainability",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 18,
+        "share_pct": 0.85
+      },
+      {
+        "category": "Pandemic Impact",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 19,
+        "share_pct": 0.74
+      },
+      {
+        "category": "Language Education",
+        "cc": "eng",
+        "mix": "fractional",
+        "rank": 20,
+        "share_pct": 0.58
+      },
+      {
+        "category": "Poverty & Disadvantage",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 1,
+        "share_pct": 18.83
+      },
+      {
+        "category": "Equality, Rights & Inclusion",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 2,
+        "share_pct": 14.21
+      },
+      {
+        "category": "Teaching Profession & Workforce",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 3,
+        "share_pct": 13.77
+      },
+      {
+        "category": "Governance & Funding",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 4,
+        "share_pct": 11.2
+      },
+      {
+        "category": "Assessment & Qualifications",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 5,
+        "share_pct": 8.37
+      },
+      {
+        "category": "Health & Wellbeing",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 6,
+        "share_pct": 7.02
+      },
+      {
+        "category": "Special & Inclusive Education",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 7,
+        "share_pct": 6.06
+      },
+      {
+        "category": "Attendance & Behaviour",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 8,
+        "share_pct": 5.02
+      },
+      {
+        "category": "Attainment & Outcomes",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 9,
+        "share_pct": 3.28
+      },
+      {
+        "category": "Digital, AI & Technology",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 10,
+        "share_pct": 2.52
+      },
+      {
+        "category": "Language Education",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 11,
+        "share_pct": 2.51
+      },
+      {
+        "category": "Climate & Sustainability",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 12,
+        "share_pct": 2.25
+      },
+      {
+        "category": "Skills, FE & Vocational",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 13,
+        "share_pct": 1.8
+      },
+      {
+        "category": "Curriculum & Learning",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 14,
+        "share_pct": 1.57
+      },
+      {
+        "category": "Pandemic Impact",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 15,
+        "share_pct": 1.08
+      },
+      {
+        "category": "School Operations & Infrastructure",
+        "cc": "sco",
+        "mix": "fractional",
+        "rank": 16,
+        "share_pct": 0.5
+      },
+      {
+        "category": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 1,
+        "share_pct": 21.96
+      },
+      {
+        "category": "Special & Inclusive Education",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 2,
+        "share_pct": 13.48
+      },
+      {
+        "category": "Poverty & Disadvantage",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 3,
+        "share_pct": 10.58
+      },
+      {
+        "category": "Curriculum & Learning",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 4,
+        "share_pct": 8.9
+      },
+      {
+        "category": "Assessment & Qualifications",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 5,
+        "share_pct": 7.69
+      },
+      {
+        "category": "Health & Wellbeing",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 6,
+        "share_pct": 6.67
+      },
+      {
+        "category": "Governance & Funding",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 7,
+        "share_pct": 6.59
+      },
+      {
+        "category": "Attendance & Behaviour",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 8,
+        "share_pct": 4.1
+      },
+      {
+        "category": "Digital, AI & Technology",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 9,
+        "share_pct": 3.56
+      },
+      {
+        "category": "Language Education",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 10,
+        "share_pct": 3.21
+      },
+      {
+        "category": "School Operations & Infrastructure",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 11,
+        "share_pct": 2.28
+      },
+      {
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 12,
+        "share_pct": 2.05
+      },
+      {
+        "category": "Attainment & Outcomes",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 13,
+        "share_pct": 2.04
+      },
+      {
+        "category": "Inspection & Accountability",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 14,
+        "share_pct": 1.91
+      },
+      {
+        "category": "School System & Structures",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 15,
+        "share_pct": 1.85
+      },
+      {
+        "category": "Climate & Sustainability",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 16,
+        "share_pct": 1.6
+      },
+      {
+        "category": "Equality, Rights & Inclusion",
+        "cc": "irl",
+        "mix": "fractional",
+        "rank": 17,
+        "share_pct": 1.53
+      },
+      {
+        "category": "Teaching Profession & Workforce",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 1,
+        "share_pct": 11.44
+      },
+      {
+        "category": "Governance & Funding",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 2,
+        "share_pct": 10.35
+      },
+      {
+        "category": "School System & Structures",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 3,
+        "share_pct": 9.68
+      },
+      {
+        "category": "Inspection & Accountability",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 4,
+        "share_pct": 8.9
+      },
+      {
+        "category": "Special & Inclusive Education",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 5,
+        "share_pct": 8.16
+      },
+      {
+        "category": "Poverty & Disadvantage",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 6,
+        "share_pct": 7.9
+      },
+      {
+        "category": "Assessment & Qualifications",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 7,
+        "share_pct": 7.15
+      },
+      {
+        "category": "Digital, AI & Technology",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 8,
+        "share_pct": 5.73
+      },
+      {
+        "category": "Skills, FE & Vocational",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 9,
+        "share_pct": 5.14
+      },
+      {
+        "category": "Curriculum & Learning",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 10,
+        "share_pct": 5.1
+      },
+      {
+        "category": "Attendance & Behaviour",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 11,
+        "share_pct": 4.62
+      },
+      {
+        "category": "Equality, Rights & Inclusion",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 12,
+        "share_pct": 4.16
+      },
+      {
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 13,
+        "share_pct": 3.1
+      },
+      {
+        "category": "Health & Wellbeing",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 14,
+        "share_pct": 2.44
+      },
+      {
+        "category": "School Operations & Infrastructure",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 15,
+        "share_pct": 1.97
+      },
+      {
+        "category": "Attainment & Outcomes",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 16,
+        "share_pct": 1.51
+      },
+      {
+        "category": "Climate & Sustainability",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 17,
+        "share_pct": 0.9
+      },
+      {
+        "category": "Parental & Family Engagement",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 18,
+        "share_pct": 0.73
+      },
+      {
+        "category": "Pandemic Impact",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 19,
+        "share_pct": 0.56
+      },
+      {
+        "category": "Language Education",
+        "cc": "eng",
+        "mix": "dominant",
+        "rank": 20,
+        "share_pct": 0.45
+      },
+      {
+        "category": "Poverty & Disadvantage",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 1,
+        "share_pct": 19.86
+      },
+      {
+        "category": "Teaching Profession & Workforce",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 2,
+        "share_pct": 15.34
+      },
+      {
+        "category": "Equality, Rights & Inclusion",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 3,
+        "share_pct": 14.27
+      },
+      {
+        "category": "Governance & Funding",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 4,
+        "share_pct": 10.99
+      },
+      {
+        "category": "Assessment & Qualifications",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 5,
+        "share_pct": 8.24
+      },
+      {
+        "category": "Health & Wellbeing",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 6,
+        "share_pct": 6.56
+      },
+      {
+        "category": "Special & Inclusive Education",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 7,
+        "share_pct": 5.67
+      },
+      {
+        "category": "Attendance & Behaviour",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 8,
+        "share_pct": 4.79
+      },
+      {
+        "category": "Attainment & Outcomes",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 9,
+        "share_pct": 3.19
+      },
+      {
+        "category": "Language Education",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 10,
+        "share_pct": 2.84
+      },
+      {
+        "category": "Digital, AI & Technology",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 11,
+        "share_pct": 2.57
+      },
+      {
+        "category": "Climate & Sustainability",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 12,
+        "share_pct": 1.68
+      },
+      {
+        "category": "Curriculum & Learning",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 13,
+        "share_pct": 1.51
+      },
+      {
+        "category": "Skills, FE & Vocational",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 14,
+        "share_pct": 1.42
+      },
+      {
+        "category": "Pandemic Impact",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 15,
+        "share_pct": 0.62
+      },
+      {
+        "category": "School Operations & Infrastructure",
+        "cc": "sco",
+        "mix": "dominant",
+        "rank": 16,
+        "share_pct": 0.44
+      },
+      {
+        "category": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 1,
+        "share_pct": 22.66
+      },
+      {
+        "category": "Special & Inclusive Education",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 2,
+        "share_pct": 13.05
+      },
+      {
+        "category": "Poverty & Disadvantage",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 3,
+        "share_pct": 10.34
+      },
+      {
+        "category": "Curriculum & Learning",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 4,
+        "share_pct": 9.61
+      },
+      {
+        "category": "Assessment & Qualifications",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 5,
+        "share_pct": 8.25
+      },
+      {
+        "category": "Health & Wellbeing",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 6,
+        "share_pct": 6.61
+      },
+      {
+        "category": "Governance & Funding",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 7,
+        "share_pct": 6.4
+      },
+      {
+        "category": "Attendance & Behaviour",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 8,
+        "share_pct": 3.86
+      },
+      {
+        "category": "Digital, AI & Technology",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 9,
+        "share_pct": 3.61
+      },
+      {
+        "category": "Language Education",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 10,
+        "share_pct": 2.96
+      },
+      {
+        "category": "School Operations & Infrastructure",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 11,
+        "share_pct": 2.18
+      },
+      {
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 12,
+        "share_pct": 2.09
+      },
+      {
+        "category": "School System & Structures",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 13,
+        "share_pct": 1.93
+      },
+      {
+        "category": "Attainment & Outcomes",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 14,
+        "share_pct": 1.85
+      },
+      {
+        "category": "Inspection & Accountability",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 15,
+        "share_pct": 1.68
+      },
+      {
+        "category": "Climate & Sustainability",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 16,
+        "share_pct": 1.6
+      },
+      {
+        "category": "Equality, Rights & Inclusion",
+        "cc": "irl",
+        "mix": "dominant",
+        "rank": 17,
+        "share_pct": 1.31
+      }
+    ],
+    "46_28_topics_per_doc": [
+      {
+        "figure": "mean topics per document",
+        "value": 3.0458
+      },
+      {
+        "figure": "share multi-topic %",
+        "value": 73.138
+      },
+      {
+        "figure": "n",
+        "value": 10528.0
+      }
+    ],
+    "46_31_chunking": [
+      {
+        "figure": "documents",
+        "value": 10537.0
+      },
+      {
+        "figure": "median chunks at 100 words",
+        "value": 6.0
+      },
+      {
+        "figure": "share with >= 4 chunks at 100 words %",
+        "value": 73.92
+      },
+      {
+        "figure": "median chunks at 300 words",
+        "value": 2.0
+      },
+      {
+        "figure": "share with >= 4 chunks at 300 words %",
+        "value": 17.82
+      }
+    ],
+    "47_32_volume": [
+      {
+        "categorised_docs": 6964,
+        "cc": "eng",
+        "share_of_all_pct": 66.1,
+        "share_of_categorised_pct": 66.15
+      },
+      {
+        "categorised_docs": 1128,
+        "cc": "sco",
+        "share_of_all_pct": 10.71,
+        "share_of_categorised_pct": 10.71
+      },
+      {
+        "categorised_docs": 2436,
+        "cc": "irl",
+        "share_of_all_pct": 23.19,
+        "share_of_categorised_pct": 23.14
+      }
+    ],
+    "47_33_leave_one_source_out": [
+      {
+        "category_moved_most": "Poverty & Disadvantage",
+        "cc": "sco",
+        "docs": 388,
+        "max_shift_pts": 10.128,
+        "pct_of_country": 34.4,
+        "source": "gov_scot"
+      },
+      {
+        "category_moved_most": "Equality, Rights & Inclusion",
+        "cc": "sco",
+        "docs": 197,
+        "max_shift_pts": 7.184,
+        "pct_of_country": 17.46,
+        "source": "children_in_scotland"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "sco",
+        "docs": 85,
+        "max_shift_pts": 5.749,
+        "pct_of_country": 7.54,
+        "source": "ssta"
+      },
+      {
+        "category_moved_most": "Curriculum & Learning",
+        "cc": "irl",
+        "docs": 851,
+        "max_shift_pts": 4.968,
+        "pct_of_country": 34.93,
+        "source": "oireachtas"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "docs": 471,
+        "max_shift_pts": 3.447,
+        "pct_of_country": 19.33,
+        "source": "gov_ie_sitemap"
+      },
+      {
+        "category_moved_most": "School System & Structures",
+        "cc": "eng",
+        "docs": 2927,
+        "max_shift_pts": 3.312,
+        "pct_of_country": 42.03,
+        "source": "schoolsweek"
+      },
+      {
+        "category_moved_most": "Curriculum & Learning",
+        "cc": "irl",
+        "docs": 128,
+        "max_shift_pts": 3.193,
+        "pct_of_country": 5.25,
+        "source": "educate_together"
+      },
+      {
+        "category_moved_most": "Governance & Funding",
+        "cc": "sco",
+        "docs": 81,
+        "max_shift_pts": 3.065,
+        "pct_of_country": 7.18,
+        "source": "spice_spotlight"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "sco",
+        "docs": 50,
+        "max_shift_pts": 2.999,
+        "pct_of_country": 4.43,
+        "source": "gtcs"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "docs": 199,
+        "max_shift_pts": 2.991,
+        "pct_of_country": 8.17,
+        "source": "into"
+      },
+      {
+        "category_moved_most": "Governance & Funding",
+        "cc": "irl",
+        "docs": 80,
+        "max_shift_pts": 2.839,
+        "pct_of_country": 3.28,
+        "source": "oir_edu_pr"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "sco",
+        "docs": 58,
+        "max_shift_pts": 2.814,
+        "pct_of_country": 5.14,
+        "source": "eis"
+      },
+      {
+        "category_moved_most": "Skills, FE & Vocational",
+        "cc": "eng",
+        "docs": 781,
+        "max_shift_pts": 2.585,
+        "pct_of_country": 11.21,
+        "source": "fe_week"
+      },
+      {
+        "category_moved_most": "Poverty & Disadvantage",
+        "cc": "irl",
+        "docs": 94,
+        "max_shift_pts": 2.531,
+        "pct_of_country": 3.86,
+        "source": "childrens_rights_alliance"
+      },
+      {
+        "category_moved_most": "Assessment & Qualifications",
+        "cc": "irl",
+        "docs": 127,
+        "max_shift_pts": 2.361,
+        "pct_of_country": 5.21,
+        "source": "asti"
+      },
+      {
+        "category_moved_most": "School System & Structures",
+        "cc": "eng",
+        "docs": 276,
+        "max_shift_pts": 2.232,
+        "pct_of_country": 3.96,
+        "source": "nga"
+      },
+      {
+        "category_moved_most": "Digital, AI & Technology",
+        "cc": "sco",
+        "docs": 31,
+        "max_shift_pts": 1.386,
+        "pct_of_country": 2.75,
+        "source": "futures_forum"
+      },
+      {
+        "category_moved_most": "Equality, Rights & Inclusion",
+        "cc": "eng",
+        "docs": 396,
+        "max_shift_pts": 1.317,
+        "pct_of_country": 5.69,
+        "source": "childrens_comm_eng"
+      },
+      {
+        "category_moved_most": "Poverty & Disadvantage",
+        "cc": "eng",
+        "docs": 182,
+        "max_shift_pts": 1.218,
+        "pct_of_country": 2.61,
+        "source": "sutton_trust"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "eng",
+        "docs": 339,
+        "max_shift_pts": 1.105,
+        "pct_of_country": 4.87,
+        "source": "neu"
+      },
+      {
+        "category_moved_most": "Safeguarding, Welfare & Youth Services",
+        "cc": "irl",
+        "docs": 22,
+        "max_shift_pts": 0.851,
+        "pct_of_country": 0.9,
+        "source": "youth_ie"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "sco",
+        "docs": 65,
+        "max_shift_pts": 0.844,
+        "pct_of_country": 5.76,
+        "source": "enlighten"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "docs": 107,
+        "max_shift_pts": 0.826,
+        "pct_of_country": 4.39,
+        "source": "esri"
+      },
+      {
+        "category_moved_most": "Digital, AI & Technology",
+        "cc": "eng",
+        "docs": 60,
+        "max_shift_pts": 0.819,
+        "pct_of_country": 0.86,
+        "source": "five_rights"
+      },
+      {
+        "category_moved_most": "Assessment & Qualifications",
+        "cc": "sco",
+        "docs": 54,
+        "max_shift_pts": 0.796,
+        "pct_of_country": 4.79,
+        "source": "scot_written_q"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "docs": 32,
+        "max_shift_pts": 0.78,
+        "pct_of_country": 1.31,
+        "source": "teaching_council"
+      },
+      {
+        "category_moved_most": "Attendance & Behaviour",
+        "cc": "eng",
+        "docs": 208,
+        "max_shift_pts": 0.775,
+        "pct_of_country": 2.99,
+        "source": "fft_datalab"
+      },
+      {
+        "category_moved_most": "Assessment & Qualifications",
+        "cc": "sco",
+        "docs": 33,
+        "max_shift_pts": 0.665,
+        "pct_of_country": 2.93,
+        "source": "ades"
+      },
+      {
+        "category_moved_most": "Inspection & Accountability",
+        "cc": "eng",
+        "docs": 361,
+        "max_shift_pts": 0.604,
+        "pct_of_country": 5.18,
+        "source": "dfe"
+      },
+      {
+        "category_moved_most": "Governance & Funding",
+        "cc": "eng",
+        "docs": 98,
+        "max_shift_pts": 0.551,
+        "pct_of_country": 1.41,
+        "source": "fed"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "docs": 75,
+        "max_shift_pts": 0.55,
+        "pct_of_country": 3.08,
+        "source": "education_magazine_irl"
+      },
+      {
+        "category_moved_most": "Digital, AI & Technology",
+        "cc": "eng",
+        "docs": 41,
+        "max_shift_pts": 0.544,
+        "pct_of_country": 0.59,
+        "source": "defend_digital_me"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "docs": 74,
+        "max_shift_pts": 0.518,
+        "pct_of_country": 3.04,
+        "source": "rte"
+      },
+      {
+        "category_moved_most": "Curriculum & Learning",
+        "cc": "irl",
+        "docs": 41,
+        "max_shift_pts": 0.504,
+        "pct_of_country": 1.68,
+        "source": "etbi"
+      },
+      {
+        "category_moved_most": "Special & Inclusive Education",
+        "cc": "sco",
+        "docs": 15,
+        "max_shift_pts": 0.463,
+        "pct_of_country": 1.33,
+        "source": "sera"
+      },
+      {
+        "category_moved_most": "Attendance & Behaviour",
+        "cc": "sco",
+        "docs": 20,
+        "max_shift_pts": 0.455,
+        "pct_of_country": 1.77,
+        "source": "holyrood_magazine"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "eng",
+        "docs": 122,
+        "max_shift_pts": 0.454,
+        "pct_of_country": 1.75,
+        "source": "nfer"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "docs": 80,
+        "max_shift_pts": 0.43,
+        "pct_of_country": 3.28,
+        "source": "gov_ie"
+      },
+      {
+        "category_moved_most": "Assessment & Qualifications",
+        "cc": "sco",
+        "docs": 18,
+        "max_shift_pts": 0.407,
+        "pct_of_country": 1.6,
+        "source": "connect_sptc"
+      },
+      {
+        "category_moved_most": "Attainment & Outcomes",
+        "cc": "irl",
+        "docs": 26,
+        "max_shift_pts": 0.395,
+        "pct_of_country": 1.07,
+        "source": "erc"
+      },
+      {
+        "category_moved_most": "Poverty & Disadvantage",
+        "cc": "eng",
+        "docs": 106,
+        "max_shift_pts": 0.388,
+        "pct_of_country": 1.52,
+        "source": "ncb"
+      },
+      {
+        "category_moved_most": "Assessment & Qualifications",
+        "cc": "sco",
+        "docs": 11,
+        "max_shift_pts": 0.366,
+        "pct_of_country": 0.98,
+        "source": "npfs"
+      },
+      {
+        "category_moved_most": "Poverty & Disadvantage",
+        "cc": "eng",
+        "docs": 58,
+        "max_shift_pts": 0.339,
+        "pct_of_country": 0.83,
+        "source": "ippr"
+      },
+      {
+        "category_moved_most": "School System & Structures",
+        "cc": "eng",
+        "docs": 311,
+        "max_shift_pts": 0.317,
+        "pct_of_country": 4.47,
+        "source": "ascl"
+      },
+      {
+        "category_moved_most": "Parental & Family Engagement",
+        "cc": "eng",
+        "docs": 41,
+        "max_shift_pts": 0.27,
+        "pct_of_country": 0.59,
+        "source": "parentkind"
+      },
+      {
+        "category_moved_most": "Assessment & Qualifications",
+        "cc": "eng",
+        "docs": 24,
+        "max_shift_pts": 0.235,
+        "pct_of_country": 0.34,
+        "source": "ofqual_blog"
+      },
+      {
+        "category_moved_most": "Equality, Rights & Inclusion",
+        "cc": "eng",
+        "docs": 118,
+        "max_shift_pts": 0.22,
+        "pct_of_country": 1.69,
+        "source": "epi"
+      },
+      {
+        "category_moved_most": "Attendance & Behaviour",
+        "cc": "sco",
+        "docs": 12,
+        "max_shift_pts": 0.217,
+        "pct_of_country": 1.06,
+        "source": "tes_scotland"
+      },
+      {
+        "category_moved_most": "Poverty & Disadvantage",
+        "cc": "eng",
+        "docs": 99,
+        "max_shift_pts": 0.192,
+        "pct_of_country": 1.42,
+        "source": "commons_library"
+      },
+      {
+        "category_moved_most": "Skills, FE & Vocational",
+        "cc": "sco",
+        "docs": 8,
+        "max_shift_pts": 0.168,
+        "pct_of_country": 0.71,
+        "source": "sfc"
+      },
+      {
+        "category_moved_most": "Curriculum & Learning",
+        "cc": "irl",
+        "docs": 13,
+        "max_shift_pts": 0.155,
+        "pct_of_country": 0.53,
+        "source": "education_matters"
+      },
+      {
+        "category_moved_most": "Inspection & Accountability",
+        "cc": "eng",
+        "docs": 151,
+        "max_shift_pts": 0.153,
+        "pct_of_country": 2.17,
+        "source": "education_hub_dfe"
+      },
+      {
+        "category_moved_most": "Health & Wellbeing",
+        "cc": "eng",
+        "docs": 82,
+        "max_shift_pts": 0.145,
+        "pct_of_country": 1.18,
+        "source": "uk_written_q"
+      },
+      {
+        "category_moved_most": "Language Education",
+        "cc": "eng",
+        "docs": 78,
+        "max_shift_pts": 0.14,
+        "pct_of_country": 1.12,
+        "source": "hepi"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "docs": 6,
+        "max_shift_pts": 0.109,
+        "pct_of_country": 0.25,
+        "source": "tui"
+      },
+      {
+        "category_moved_most": "Skills, FE & Vocational",
+        "cc": "sco",
+        "docs": 2,
+        "max_shift_pts": 0.086,
+        "pct_of_country": 0.18,
+        "source": "universities_scot"
+      },
+      {
+        "category_moved_most": "Poverty & Disadvantage",
+        "cc": "eng",
+        "docs": 48,
+        "max_shift_pts": 0.075,
+        "pct_of_country": 0.69,
+        "source": "nuffield"
+      },
+      {
+        "category_moved_most": "Teaching Profession & Workforce",
+        "cc": "eng",
+        "docs": 10,
+        "max_shift_pts": 0.07,
+        "pct_of_country": 0.14,
+        "source": "chartered_college"
+      },
+      {
+        "category_moved_most": "Governance & Funding",
+        "cc": "eng",
+        "docs": 14,
+        "max_shift_pts": 0.051,
+        "pct_of_country": 0.2,
+        "source": "nasuwt_news"
+      },
+      {
+        "category_moved_most": "Inspection & Accountability",
+        "cc": "eng",
+        "docs": 14,
+        "max_shift_pts": 0.04,
+        "pct_of_country": 0.2,
+        "source": "ofsted_inspection"
+      },
+      {
+        "category_moved_most": "Poverty & Disadvantage",
+        "cc": "irl",
+        "docs": 10,
+        "max_shift_pts": 0.04,
+        "pct_of_country": 0.41,
+        "source": "cpsma"
+      },
+      {
+        "category_moved_most": "Poverty & Disadvantage",
+        "cc": "eng",
+        "docs": 3,
+        "max_shift_pts": 0.025,
+        "pct_of_country": 0.04,
+        "source": "cpag"
+      },
+      {
+        "category_moved_most": "Poverty & Disadvantage",
+        "cc": "eng",
+        "docs": 16,
+        "max_shift_pts": 0.025,
+        "pct_of_country": 0.23,
+        "source": "uk_committees"
+      }
+    ],
+    "47_33_schools_week": [
+      {
+        "figure": "share of categorised corpus %",
+        "n": 10528,
+        "value": 27.8
+      },
+      {
+        "figure": "share of all documents %",
+        "n": 10537,
+        "value": 27.78
+      },
+      {
+        "figure": "share of English categorised documents %",
+        "n": 6964,
+        "value": 42.03
+      },
+      {
+        "figure": "share of English School System & Structures %",
+        "n": 674,
+        "value": 61.87
+      },
+      {
+        "figure": "share of English Inspection & Accountability %",
+        "n": 620,
+        "value": 55.97
+      }
+    ],
+    "47_34_voice_removal": [
+      {
+        "after_pct": 5.44,
+        "before_pct": 7.15,
+        "category": "Assessment & Qualifications",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 2.15,
+        "before_pct": 1.51,
+        "category": "Attainment & Outcomes",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 5.68,
+        "before_pct": 4.62,
+        "category": "Attendance & Behaviour",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 1.32,
+        "before_pct": 0.9,
+        "category": "Climate & Sustainability",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 5.37,
+        "before_pct": 5.1,
+        "category": "Curriculum & Learning",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 7.46,
+        "before_pct": 5.73,
+        "category": "Digital, AI & Technology",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 7.06,
+        "before_pct": 4.16,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 8.6,
+        "before_pct": 10.35,
+        "category": "Governance & Funding",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 3.62,
+        "before_pct": 2.44,
+        "category": "Health & Wellbeing",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 5.99,
+        "before_pct": 8.9,
+        "category": "Inspection & Accountability",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 0.64,
+        "before_pct": 0.45,
+        "category": "Language Education",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 0.71,
+        "before_pct": 0.56,
+        "category": "Pandemic Impact",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 1.32,
+        "before_pct": 0.73,
+        "category": "Parental & Family Engagement",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 12.96,
+        "before_pct": 7.9,
+        "category": "Poverty & Disadvantage",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 3.62,
+        "before_pct": 3.1,
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 1.38,
+        "before_pct": 1.97,
+        "category": "School Operations & Infrastructure",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 7.62,
+        "before_pct": 9.68,
+        "category": "School System & Structures",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 3.44,
+        "before_pct": 5.14,
+        "category": "Skills, FE & Vocational",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 6.23,
+        "before_pct": 8.16,
+        "category": "Special & Inclusive Education",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 9.37,
+        "before_pct": 11.44,
+        "category": "Teaching Profession & Workforce",
+        "cc": "eng",
+        "voice": "media"
+      },
+      {
+        "after_pct": 7.33,
+        "before_pct": 7.15,
+        "category": "Assessment & Qualifications",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 1.7,
+        "before_pct": 1.51,
+        "category": "Attainment & Outcomes",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 4.69,
+        "before_pct": 4.62,
+        "category": "Attendance & Behaviour",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 0.83,
+        "before_pct": 0.9,
+        "category": "Climate & Sustainability",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 4.81,
+        "before_pct": 5.1,
+        "category": "Curriculum & Learning",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 5.47,
+        "before_pct": 5.73,
+        "category": "Digital, AI & Technology",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 2.97,
+        "before_pct": 4.16,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 10.93,
+        "before_pct": 10.35,
+        "category": "Governance & Funding",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 2.03,
+        "before_pct": 2.44,
+        "category": "Health & Wellbeing",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 8.97,
+        "before_pct": 8.9,
+        "category": "Inspection & Accountability",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 0.41,
+        "before_pct": 0.45,
+        "category": "Language Education",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 0.51,
+        "before_pct": 0.56,
+        "category": "Pandemic Impact",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 0.58,
+        "before_pct": 0.73,
+        "category": "Parental & Family Engagement",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 7.23,
+        "before_pct": 7.9,
+        "category": "Poverty & Disadvantage",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 2.28,
+        "before_pct": 3.1,
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 2.05,
+        "before_pct": 1.97,
+        "category": "School Operations & Infrastructure",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 10.83,
+        "before_pct": 9.68,
+        "category": "School System & Structures",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 5.45,
+        "before_pct": 5.14,
+        "category": "Skills, FE & Vocational",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 8.45,
+        "before_pct": 8.16,
+        "category": "Special & Inclusive Education",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 12.48,
+        "before_pct": 11.44,
+        "category": "Teaching Profession & Workforce",
+        "cc": "eng",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 7.32,
+        "before_pct": 7.15,
+        "category": "Assessment & Qualifications",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 1.59,
+        "before_pct": 1.51,
+        "category": "Attainment & Outcomes",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 4.44,
+        "before_pct": 4.62,
+        "category": "Attendance & Behaviour",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 0.89,
+        "before_pct": 0.9,
+        "category": "Climate & Sustainability",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 5.0,
+        "before_pct": 5.1,
+        "category": "Curriculum & Learning",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 6.0,
+        "before_pct": 5.73,
+        "category": "Digital, AI & Technology",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 4.35,
+        "before_pct": 4.16,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 9.83,
+        "before_pct": 10.35,
+        "category": "Governance & Funding",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 2.44,
+        "before_pct": 2.44,
+        "category": "Health & Wellbeing",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 8.87,
+        "before_pct": 8.9,
+        "category": "Inspection & Accountability",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 0.48,
+        "before_pct": 0.45,
+        "category": "Language Education",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 0.57,
+        "before_pct": 0.56,
+        "category": "Pandemic Impact",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 0.79,
+        "before_pct": 0.73,
+        "category": "Parental & Family Engagement",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 7.95,
+        "before_pct": 7.9,
+        "category": "Poverty & Disadvantage",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 3.27,
+        "before_pct": 3.1,
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 1.89,
+        "before_pct": 1.97,
+        "category": "School Operations & Infrastructure",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 10.46,
+        "before_pct": 9.68,
+        "category": "School System & Structures",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 5.52,
+        "before_pct": 5.14,
+        "category": "Skills, FE & Vocational",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 8.32,
+        "before_pct": 8.16,
+        "category": "Special & Inclusive Education",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 10.02,
+        "before_pct": 11.44,
+        "category": "Teaching Profession & Workforce",
+        "cc": "eng",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 7.33,
+        "before_pct": 7.15,
+        "category": "Assessment & Qualifications",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 1.55,
+        "before_pct": 1.51,
+        "category": "Attainment & Outcomes",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 4.74,
+        "before_pct": 4.62,
+        "category": "Attendance & Behaviour",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 0.93,
+        "before_pct": 0.9,
+        "category": "Climate & Sustainability",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 5.17,
+        "before_pct": 5.1,
+        "category": "Curriculum & Learning",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 5.21,
+        "before_pct": 5.73,
+        "category": "Digital, AI & Technology",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 3.98,
+        "before_pct": 4.16,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 10.61,
+        "before_pct": 10.35,
+        "category": "Governance & Funding",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 2.3,
+        "before_pct": 2.44,
+        "category": "Health & Wellbeing",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 9.09,
+        "before_pct": 8.9,
+        "category": "Inspection & Accountability",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 0.46,
+        "before_pct": 0.45,
+        "category": "Language Education",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 0.56,
+        "before_pct": 0.56,
+        "category": "Pandemic Impact",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 0.46,
+        "before_pct": 0.73,
+        "category": "Parental & Family Engagement",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 7.54,
+        "before_pct": 7.9,
+        "category": "Poverty & Disadvantage",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 2.97,
+        "before_pct": 3.1,
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 2.02,
+        "before_pct": 1.97,
+        "category": "School Operations & Infrastructure",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 9.92,
+        "before_pct": 9.68,
+        "category": "School System & Structures",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 5.28,
+        "before_pct": 5.14,
+        "category": "Skills, FE & Vocational",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 8.15,
+        "before_pct": 8.16,
+        "category": "Special & Inclusive Education",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 11.73,
+        "before_pct": 11.44,
+        "category": "Teaching Profession & Workforce",
+        "cc": "eng",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 7.94,
+        "before_pct": 8.24,
+        "category": "Assessment & Qualifications",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 3.01,
+        "before_pct": 3.19,
+        "category": "Attainment & Outcomes",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 4.11,
+        "before_pct": 4.79,
+        "category": "Attendance & Behaviour",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 1.73,
+        "before_pct": 1.68,
+        "category": "Climate & Sustainability",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 1.55,
+        "before_pct": 1.51,
+        "category": "Curriculum & Learning",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 2.46,
+        "before_pct": 2.57,
+        "category": "Digital, AI & Technology",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 14.6,
+        "before_pct": 14.27,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 11.13,
+        "before_pct": 10.99,
+        "category": "Governance & Funding",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 6.75,
+        "before_pct": 6.56,
+        "category": "Health & Wellbeing",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 2.83,
+        "before_pct": 2.84,
+        "category": "Language Education",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 0.64,
+        "before_pct": 0.62,
+        "category": "Pandemic Impact",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 20.35,
+        "before_pct": 19.86,
+        "category": "Poverty & Disadvantage",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 0.46,
+        "before_pct": 0.44,
+        "category": "School Operations & Infrastructure",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 1.37,
+        "before_pct": 1.42,
+        "category": "Skills, FE & Vocational",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 5.66,
+        "before_pct": 5.67,
+        "category": "Special & Inclusive Education",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 15.42,
+        "before_pct": 15.34,
+        "category": "Teaching Profession & Workforce",
+        "cc": "sco",
+        "voice": "media"
+      },
+      {
+        "after_pct": 9.84,
+        "before_pct": 8.24,
+        "category": "Assessment & Qualifications",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 2.73,
+        "before_pct": 3.19,
+        "category": "Attainment & Outcomes",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 6.28,
+        "before_pct": 4.79,
+        "category": "Attendance & Behaviour",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 1.09,
+        "before_pct": 1.68,
+        "category": "Climate & Sustainability",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 1.37,
+        "before_pct": 1.51,
+        "category": "Curriculum & Learning",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 3.69,
+        "before_pct": 2.57,
+        "category": "Digital, AI & Technology",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 16.12,
+        "before_pct": 14.27,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 10.93,
+        "before_pct": 10.99,
+        "category": "Governance & Funding",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 3.69,
+        "before_pct": 6.56,
+        "category": "Health & Wellbeing",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 1.5,
+        "before_pct": 2.84,
+        "category": "Language Education",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 0.68,
+        "before_pct": 0.62,
+        "category": "Pandemic Impact",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 9.7,
+        "before_pct": 19.86,
+        "category": "Poverty & Disadvantage",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 0.68,
+        "before_pct": 0.44,
+        "category": "School Operations & Infrastructure",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 1.64,
+        "before_pct": 1.42,
+        "category": "Skills, FE & Vocational",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 7.38,
+        "before_pct": 5.67,
+        "category": "Special & Inclusive Education",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 22.68,
+        "before_pct": 15.34,
+        "category": "Teaching Profession & Workforce",
+        "cc": "sco",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 8.73,
+        "before_pct": 8.24,
+        "category": "Assessment & Qualifications",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 3.55,
+        "before_pct": 3.19,
+        "category": "Attainment & Outcomes",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 4.26,
+        "before_pct": 4.79,
+        "category": "Attendance & Behaviour",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 1.93,
+        "before_pct": 1.68,
+        "category": "Climate & Sustainability",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 1.73,
+        "before_pct": 1.51,
+        "category": "Curriculum & Learning",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 2.84,
+        "before_pct": 2.57,
+        "category": "Digital, AI & Technology",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 16.04,
+        "before_pct": 14.27,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 12.49,
+        "before_pct": 10.99,
+        "category": "Governance & Funding",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 7.51,
+        "before_pct": 6.56,
+        "category": "Health & Wellbeing",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 3.25,
+        "before_pct": 2.84,
+        "category": "Language Education",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 0.71,
+        "before_pct": 0.62,
+        "category": "Pandemic Impact",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 22.34,
+        "before_pct": 19.86,
+        "category": "Poverty & Disadvantage",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 0.51,
+        "before_pct": 0.44,
+        "category": "School Operations & Infrastructure",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 1.52,
+        "before_pct": 1.42,
+        "category": "Skills, FE & Vocational",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 6.4,
+        "before_pct": 5.67,
+        "category": "Special & Inclusive Education",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 6.19,
+        "before_pct": 15.34,
+        "category": "Teaching Profession & Workforce",
+        "cc": "sco",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 8.87,
+        "before_pct": 8.24,
+        "category": "Assessment & Qualifications",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 3.77,
+        "before_pct": 3.19,
+        "category": "Attainment & Outcomes",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 5.21,
+        "before_pct": 4.79,
+        "category": "Attendance & Behaviour",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 2.11,
+        "before_pct": 1.68,
+        "category": "Climate & Sustainability",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 1.66,
+        "before_pct": 1.51,
+        "category": "Curriculum & Learning",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 2.88,
+        "before_pct": 2.57,
+        "category": "Digital, AI & Technology",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 6.98,
+        "before_pct": 14.27,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 12.86,
+        "before_pct": 10.99,
+        "category": "Governance & Funding",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 6.65,
+        "before_pct": 6.56,
+        "category": "Health & Wellbeing",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 3.33,
+        "before_pct": 2.84,
+        "category": "Language Education",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 0.78,
+        "before_pct": 0.62,
+        "category": "Pandemic Impact",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 20.29,
+        "before_pct": 19.86,
+        "category": "Poverty & Disadvantage",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 0.44,
+        "before_pct": 0.44,
+        "category": "School Operations & Infrastructure",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 1.77,
+        "before_pct": 1.42,
+        "category": "Skills, FE & Vocational",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 3.44,
+        "before_pct": 5.67,
+        "category": "Special & Inclusive Education",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 18.96,
+        "before_pct": 15.34,
+        "category": "Teaching Profession & Workforce",
+        "cc": "sco",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 8.36,
+        "before_pct": 8.25,
+        "category": "Assessment & Qualifications",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 1.8,
+        "before_pct": 1.85,
+        "category": "Attainment & Outcomes",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 3.91,
+        "before_pct": 3.86,
+        "category": "Attendance & Behaviour",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 1.5,
+        "before_pct": 1.6,
+        "category": "Climate & Sustainability",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 9.37,
+        "before_pct": 9.61,
+        "category": "Curriculum & Learning",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 3.12,
+        "before_pct": 3.61,
+        "category": "Digital, AI & Technology",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 1.23,
+        "before_pct": 1.31,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 6.77,
+        "before_pct": 6.4,
+        "category": "Governance & Funding",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 6.77,
+        "before_pct": 6.61,
+        "category": "Health & Wellbeing",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 1.8,
+        "before_pct": 1.68,
+        "category": "Inspection & Accountability",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 2.81,
+        "before_pct": 2.96,
+        "category": "Language Education",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 10.38,
+        "before_pct": 10.34,
+        "category": "Poverty & Disadvantage",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 2.15,
+        "before_pct": 2.09,
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 2.33,
+        "before_pct": 2.18,
+        "category": "School Operations & Infrastructure",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 1.72,
+        "before_pct": 1.93,
+        "category": "School System & Structures",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 13.19,
+        "before_pct": 13.05,
+        "category": "Special & Inclusive Education",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 22.78,
+        "before_pct": 22.66,
+        "category": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "voice": "media"
+      },
+      {
+        "after_pct": 7.32,
+        "before_pct": 8.25,
+        "category": "Assessment & Qualifications",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 1.91,
+        "before_pct": 1.85,
+        "category": "Attainment & Outcomes",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 3.5,
+        "before_pct": 3.86,
+        "category": "Attendance & Behaviour",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 1.43,
+        "before_pct": 1.6,
+        "category": "Climate & Sustainability",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 8.7,
+        "before_pct": 9.61,
+        "category": "Curriculum & Learning",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 3.71,
+        "before_pct": 3.61,
+        "category": "Digital, AI & Technology",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 1.33,
+        "before_pct": 1.31,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 6.9,
+        "before_pct": 6.4,
+        "category": "Governance & Funding",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 5.04,
+        "before_pct": 6.61,
+        "category": "Health & Wellbeing",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 1.11,
+        "before_pct": 1.68,
+        "category": "Inspection & Accountability",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 2.12,
+        "before_pct": 2.96,
+        "category": "Language Education",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 11.78,
+        "before_pct": 10.34,
+        "category": "Poverty & Disadvantage",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 2.55,
+        "before_pct": 2.09,
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 1.91,
+        "before_pct": 2.18,
+        "category": "School Operations & Infrastructure",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 1.64,
+        "before_pct": 1.93,
+        "category": "School System & Structures",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 12.25,
+        "before_pct": 13.05,
+        "category": "Special & Inclusive Education",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 26.79,
+        "before_pct": 22.66,
+        "category": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "voice": "gov"
+      },
+      {
+        "after_pct": 6.37,
+        "before_pct": 8.25,
+        "category": "Assessment & Qualifications",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 1.95,
+        "before_pct": 1.85,
+        "category": "Attainment & Outcomes",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 4.23,
+        "before_pct": 3.86,
+        "category": "Attendance & Behaviour",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 1.57,
+        "before_pct": 1.6,
+        "category": "Climate & Sustainability",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 9.93,
+        "before_pct": 9.61,
+        "category": "Curriculum & Learning",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 3.75,
+        "before_pct": 3.61,
+        "category": "Digital, AI & Technology",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 1.19,
+        "before_pct": 1.31,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 7.13,
+        "before_pct": 6.4,
+        "category": "Governance & Funding",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 7.18,
+        "before_pct": 6.61,
+        "category": "Health & Wellbeing",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 1.81,
+        "before_pct": 1.68,
+        "category": "Inspection & Accountability",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 3.23,
+        "before_pct": 2.96,
+        "category": "Language Education",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 11.41,
+        "before_pct": 10.34,
+        "category": "Poverty & Disadvantage",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 2.42,
+        "before_pct": 2.09,
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 2.52,
+        "before_pct": 2.18,
+        "category": "School Operations & Infrastructure",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 2.23,
+        "before_pct": 1.93,
+        "category": "School System & Structures",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 14.26,
+        "before_pct": 13.05,
+        "category": "Special & Inclusive Education",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 18.82,
+        "before_pct": 22.66,
+        "category": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "voice": "unions"
+      },
+      {
+        "after_pct": 8.75,
+        "before_pct": 8.25,
+        "category": "Assessment & Qualifications",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 1.97,
+        "before_pct": 1.85,
+        "category": "Attainment & Outcomes",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 3.98,
+        "before_pct": 3.86,
+        "category": "Attendance & Behaviour",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 1.36,
+        "before_pct": 1.6,
+        "category": "Climate & Sustainability",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 6.47,
+        "before_pct": 9.61,
+        "category": "Curriculum & Learning",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 3.81,
+        "before_pct": 3.61,
+        "category": "Digital, AI & Technology",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 1.4,
+        "before_pct": 1.31,
+        "category": "Equality, Rights & Inclusion",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 6.74,
+        "before_pct": 6.4,
+        "category": "Governance & Funding",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 6.91,
+        "before_pct": 6.61,
+        "category": "Health & Wellbeing",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 1.79,
+        "before_pct": 1.68,
+        "category": "Inspection & Accountability",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 3.11,
+        "before_pct": 2.96,
+        "category": "Language Education",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 10.94,
+        "before_pct": 10.34,
+        "category": "Poverty & Disadvantage",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 1.27,
+        "before_pct": 2.09,
+        "category": "Safeguarding, Welfare & Youth Services",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 2.23,
+        "before_pct": 2.18,
+        "category": "School Operations & Infrastructure",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 1.75,
+        "before_pct": 1.93,
+        "category": "School System & Structures",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 13.69,
+        "before_pct": 13.05,
+        "category": "Special & Inclusive Education",
+        "cc": "irl",
+        "voice": "civil"
+      },
+      {
+        "after_pct": 23.84,
+        "before_pct": 22.66,
+        "category": "Teaching Profession & Workforce",
+        "cc": "irl",
+        "voice": "civil"
+      }
+    ],
+    "47_35_removal_null": [
+      {
+        "cc": "eng",
+        "clear": true,
+        "null_hi": 2.9,
+        "null_median": 2.0,
+        "observed": 14.7,
+        "pct_removed": 53.2,
+        "removed": 3708,
+        "voice": "media"
+      },
+      {
+        "cc": "eng",
+        "clear": true,
+        "null_hi": 1.0,
+        "null_median": 0.7,
+        "observed": 4.0,
+        "pct_removed": 13.0,
+        "removed": 908,
+        "voice": "gov"
+      },
+      {
+        "cc": "eng",
+        "clear": true,
+        "null_hi": 0.9,
+        "null_median": 0.6,
+        "observed": 2.4,
+        "pct_removed": 9.5,
+        "removed": 664,
+        "voice": "unions"
+      },
+      {
+        "cc": "eng",
+        "clear": true,
+        "null_hi": 0.4,
+        "null_median": 0.3,
+        "observed": 1.6,
+        "pct_removed": 2.7,
+        "removed": 188,
+        "voice": "civil"
+      },
+      {
+        "cc": "sco",
+        "clear": false,
+        "null_hi": 1.0,
+        "null_median": 0.7,
+        "observed": 1.4,
+        "pct_removed": 2.8,
+        "removed": 32,
+        "voice": "media"
+      },
+      {
+        "cc": "sco",
+        "clear": true,
+        "null_hi": 4.3,
+        "null_median": 3.0,
+        "observed": 15.6,
+        "pct_removed": 35.1,
+        "removed": 396,
+        "voice": "gov"
+      },
+      {
+        "cc": "sco",
+        "clear": true,
+        "null_hi": 2.2,
+        "null_median": 1.5,
+        "observed": 9.7,
+        "pct_removed": 12.7,
+        "removed": 143,
+        "voice": "unions"
+      },
+      {
+        "cc": "sco",
+        "clear": true,
+        "null_hi": 2.9,
+        "null_median": 2.0,
+        "observed": 9.5,
+        "pct_removed": 20.0,
+        "removed": 226,
+        "voice": "civil"
+      },
+      {
+        "cc": "irl",
+        "clear": false,
+        "null_hi": 1.1,
+        "null_median": 0.8,
+        "observed": 1.3,
+        "pct_removed": 6.7,
+        "removed": 162,
+        "voice": "media"
+      },
+      {
+        "cc": "irl",
+        "clear": true,
+        "null_hi": 2.3,
+        "null_median": 1.6,
+        "observed": 6.7,
+        "pct_removed": 22.6,
+        "removed": 551,
+        "voice": "gov"
+      },
+      {
+        "cc": "irl",
+        "clear": true,
+        "null_hi": 1.7,
+        "null_median": 1.1,
+        "observed": 5.9,
+        "pct_removed": 13.6,
+        "removed": 332,
+        "voice": "unions"
+      },
+      {
+        "cc": "irl",
+        "clear": true,
+        "null_hi": 1.1,
+        "null_median": 0.7,
+        "observed": 4.4,
+        "pct_removed": 6.2,
+        "removed": 150,
+        "voice": "civil"
+      }
+    ],
+    "47_36_v_government": [
+      {
+        "cramers_v": 0.2916,
+        "n": 10528,
+        "slice": "overall"
+      },
+      {
+        "cramers_v": 0.4286,
+        "n": 1855,
+        "slice": "government only"
+      }
+    ]
+  },
+  "provenance": {
+    "source_registry_sha256": "54c18e2b066616c7accc7b05c9bf236e9b175af2e4ab3df4a2c607b4548bca1a",
+    "private_sealed_archive_sha256": "9d317623f95e4898297ae555de785560ac0f508a8059943bbe5a2f98cdbac07e",
+    "verification_scope": "Aggregate projection of independently checked private results. Public checker verifies internal consistency and checksums, not raw-input reproduction.",
+    "inputs_not_distributed": [
+      "source texts",
+      "per-document records",
+      "private notebooks and assessment documents"
+    ]
+  }
+}

@@ -102,6 +102,41 @@ The [validation protocol](docs/validation_protocol.md) records the sampling desi
 reference standard, baseline and limitations. No documents, URLs, titles, individual
 labels or model responses are included.
 
+## September 2026 evaluation update
+
+The ongoing TRACE system collects and scores weekly using a consistent topic framework.
+This release documents a fixed **30 September 2026 publication cutoff**, captured on
+3 November: **10,537 documents, 77,356 passages and 63 sources**. This is not a database
+backup taken on the cutoff date. Historical training and validation retain their own
+dates and populations.
+
+The public projection contains aggregate results only, with provenance hashes and
+explicit distinctions between fractional document shares, dominant-label comparisons,
+coherence, fit and sensitivity. The current leading fractional categories are Governance
+& Funding in England (10.99%), Poverty & Disadvantage in Scotland (18.83%), and Teaching
+Profession & Workforce in Ireland (21.96%). These describe collected documents, not
+representative national priorities.
+
+- [Results and methods](docs/results_analysis_bertopic.md)
+- [Model card](docs/governance/model_card.md) and [datasheet](docs/governance/datasheet.md)
+- [Robustness and limits](docs/robustness_sensitivity.md)
+- [Corrections](docs/corrections.md)
+- [Aggregate evidence](evidence/september_2026.json)
+
+```bash
+python tools/verify_september.py
+```
+
+This verifies public aggregate consistency and file checksums. It cannot reproduce
+private raw-input calculations or certify the live deployment. Model rebuilds can move
+documents between groups; national-share/rank stability under rebuilding is not established.
+The research snapshot is fixed while weekly batch inference continues without automatically
+updating learned parameters. NMF is retained as a comparator, not a claimed live fallback.
+
+The relevance-gate figures above use the cleaned reference labels: 45 of 120 disputed
+labels changed on review. Initial kappa was 0.590; the cleaned result is 0.743. This is
+a reference-set correction, not a model improvement or independent topic-accuracy test.
+
 ## Optional components
 
 Install the API example:
@@ -130,8 +165,12 @@ Key components:
 
 ## Repository boundary
 
-The website, private Git history, research corpus, document-level records, notebooks, model binaries and substantive findings are intentionally not included. This repository demonstrates the engineering system rather than publishing the underlying dataset.
+The website, private Git history, research corpus, document-level records, notebooks, model binaries are intentionally not included. Selected aggregate September findings are included with their evaluation boundary and limitations. This repository demonstrates the engineering system rather than publishing the underlying dataset.
 
 ## Licence
 
 MIT.
+
+## Author
+
+Louise Yorke, UCL Institute of Education.

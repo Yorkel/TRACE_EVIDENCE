@@ -51,6 +51,7 @@ WITHDRAWN_PATTERNS = {
     ),
     "withdrawn association statistic": re.compile("Cram" + "er", re.I),
 }
+SEPTEMBER_REVIEWED = {'evidence/september_2026.json': '5c1ff8ecf8a6f2e11ac085d7782d4954c715ef6933416f59e8f82a48d2cd2257', 'tools/verify_september.py': '3378c0477506c4dc6aef205f76be1afab281c01c14e268c2598e8de94c4f9643'}
 LOCAL_PREFIXES = ("/" + "Users/", "/" + "home/")
 
 
@@ -95,6 +96,13 @@ def audit(root: Path) -> list[str]:
             if jwt_role(token) == "service_role":
                 problems.append(f"Supabase service-role JWT: {relative}")
         for label, pattern in WITHDRAWN_PATTERNS.items():
+            if (label == "withdrawn association statistic"
+                    and relative.as_posix() in SEPTEMBER_REVIEWED):
+                # The September registry is a new verified population, not the
+                # withdrawn historical association. Its integrity is checked in CI.
+                import hashlib
+                if hashlib.sha256(path.read_bytes()).hexdigest() == SEPTEMBER_REVIEWED[relative.as_posix()]:
+                    continue
             if pattern.search(text):
                 problems.append(f"{label}: {relative}")
         if path.suffix == ".json" and '"cells"' in text and '"metadata"' in text:

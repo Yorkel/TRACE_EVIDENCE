@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "trace-evidence"
+authors = [{ name = "Louise Yorke" }]
 version = "0.1.0"
 description = "Curated pipeline and release-assurance components from TRACE"
 readme = "README.md"

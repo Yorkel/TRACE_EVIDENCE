@@ -34,3 +34,6 @@ jobs:
         run: uv run --frozen python -m build
       - name: Compile optional examples
         run: uv run --frozen python -m compileall -q src pipeline tools examples
+
+      - name: Verify September aggregates and release integrity
+        run: python tools/verify_september.py
